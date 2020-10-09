@@ -37,8 +37,35 @@
                   <div class="form-group">
                     <ul class="list-group" id="filters">
                       <li class="filter list-group-item">
-                        <label for="date">Enter a Date</label>
-                        <input class="form-control" id="datetime" type="text" placeholder="1/11/2011">
+                        <!-- <label for="date">Enter a Date</label>
+                        <input class="form-control" id="datetime" type="text" placeholder="1/11/2011"> -->
+
+                        <label for="date">Choose a Date</label>
+                        <select name="Date" class="drop-down" id="datetime">
+
+                        </select><br>
+
+                        <label for="city">Choose a City</label>
+                        <select name="City" class="drop-down" id="city">
+
+                        </select><br>
+
+                        <label for="state">Choose a State</label>
+                        <select name="State" class="drop-down" id="state">
+
+                        </select><br>
+
+                        <label for="country">Choose a Country</label>
+                        <select name="Country" class="drop-down" id="country">
+
+                        </select><br>
+
+                        <label for="shape">Choose a Shape</label>
+                        <select name="Shape" class="drop-down" id="shape">
+
+                        </select><br>
+
+
                       </li>
                     </ul>
                   </div>
@@ -74,7 +101,9 @@
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
   <script src="static/js/data.js"></script>
+  <script src="static/js/lib.js"></script>
   <script src="static/js/app.js"></script>
+
 </body>
 
 </html>
